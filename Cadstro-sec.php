@@ -67,10 +67,15 @@
         <h1>Cadastro de Secretaria</h1>
             <br>
                 <div class="secretaria">
-                    <label for="text" class="idsec"> Código Secretaria </label>
-                        <input type="text" class="input-group-text" disabled value="20181011405087">
-                            <br>
-                        <label for="text" class="nomesec"> Nome do(a) Secretaria/Departamento.</label> <input type="text" class="input-group-text">
+                    <form action="#" method="post">
+                        <label for="text" class="idsec"> Código Secretaria </label>
+                            <input type="text" class="input-group-text" disabled value="20181011405087">
+                                <br>
+                                    <label for="text" class="nomesec"> Nome do(a) Secretaria/Departamento.</label> 
+                                        <input type="text" class="form-control" placeholder="Nome da Secretaria ou Departamento.">
+                                            <br>
+                                            <button type="submit" class="btn btn-primary">Cadastrar </button> | <button type="reset" class="btn btn-danger">Limpar</button>
+                    </form>
                 </div>
     </div>
 
