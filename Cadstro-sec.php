@@ -63,20 +63,15 @@
             </div>
     </nav>
 
-
-    <div class="carga">
-
-        <div class="header">
-            <img class="header-item center" src="_img/logo_oficial.JPG">
+    <div class="container">
+        <h1>Cadastro de Secretaria</h1>
             <br>
-            
-        </div>
-        SisGED v2.0
-
-    </div>
-
-    <div class="rodape">
-        <p>Desenvolvido por <a class="externo" href="https://facebook.com/david.nascimento.397"> <b> DNascimento.</b></a></p>
+                <div class="secretaria">
+                    <label for="text" class="idsec"> Código Secretaria </label>
+                        <input type="text" class="input-group-text" disabled value="20181011405087">
+                            <br>
+                        <label for="text" class="nomesec"> Nome do(a) Secretaria/Departamento.</label> <input type="text" class="input-group-text">
+                </div>
     </div>
 
     <!-- Optional JavaScript -->
